@@ -1,7 +1,7 @@
 package bs.springframework.didemo;
 
 import bs.springframework.didemo.controllers.PropertyInjectedController;
-import bs.springframework.didemo.services.GreetingServiceImpl;
+import bs.services.GreetingServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 

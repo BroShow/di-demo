@@ -1,6 +1,6 @@
 package bs.springframework.didemo.controllers;
 
-import bs.springframework.didemo.services.GreetingService;
+import bs.services.GreetingService;
 
 public class ConstructorInjectedController {
 

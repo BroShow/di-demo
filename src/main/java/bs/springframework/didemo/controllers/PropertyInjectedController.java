@@ -1,6 +1,6 @@
 package bs.springframework.didemo.controllers;
 
-import bs.springframework.didemo.services.GreetingServiceImpl;
+import bs.services.GreetingServiceImpl;
 
 public class PropertyInjectedController {
 

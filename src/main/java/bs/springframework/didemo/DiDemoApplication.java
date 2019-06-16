@@ -4,8 +4,12 @@ import bs.springframework.didemo.controllers.*;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 
+//Spring Boot Application will indicate to scan everything at this file level and down unless Component Scan is defined
 @SpringBootApplication
+//Component Scan will indicate to scan from that base package and down, which overrides default scanning
+@ComponentScan(basePackages = {"bs.services", "bs.springframework"})
 public class DiDemoApplication {
 
     public static void main(String[] args) {
